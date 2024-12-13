@@ -1,0 +1,346 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16159 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker10
+-projectPath
+D:/IM ESLSCA UNIVERSITY/Game Design and Development/Final Project
+-logFile
+Logs/AssetImportWorker10.log
+-srvPort
+53480
+Successfully changed project path to: D:/IM ESLSCA UNIVERSITY/Game Design and Development/Final Project
+D:/IM ESLSCA UNIVERSITY/Game Design and Development/Final Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18940] Host "[IP] 172.20.10.5 [Port] 0 [Flags] 2 [Guid] 2087969426 [EditorId] 2087969426 [Version] 1048832 [Id] WindowsEditor(7,MOHAMEDIAD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18940] Host "[IP] 172.20.10.5 [Port] 0 [Flags] 2 [Guid] 2087969426 [EditorId] 2087969426 [Version] 1048832 [Id] WindowsEditor(7,MOHAMEDIAD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 19.14 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path D:/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/IM ESLSCA UNIVERSITY/Game Design and Development/Final Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56476
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.007256 seconds.
+- Loaded All Assemblies, in  1.187 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 848 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.822 seconds
+Domain Reload Profiling: 3009ms
+	BeginReloadAssembly (371ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (1ms)
+	RebuildCommonClasses (145ms)
+	RebuildNativeTypeToScriptingClass (41ms)
+	initialDomainReloadingComplete (147ms)
+	LoadAllAssembliesAndSetupDomain (481ms)
+		LoadAssemblies (374ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (473ms)
+			TypeCache.Refresh (469ms)
+				TypeCache.ScanAssembly (431ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1824ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1679ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1196ms)
+			SetLoadedEditorAssemblies (15ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (333ms)
+			ProcessInitializeOnLoadMethodAttributes (130ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.473 seconds
+Refreshing native plugins compatible for Editor in 18.26 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.365 seconds
+Domain Reload Profiling: 4841ms
+	BeginReloadAssembly (512ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (15ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (2ms)
+		CreateAndSetChildDomain (70ms)
+	RebuildCommonClasses (105ms)
+	RebuildNativeTypeToScriptingClass (35ms)
+	initialDomainReloadingComplete (107ms)
+	LoadAllAssembliesAndSetupDomain (1714ms)
+		LoadAssemblies (1219ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (827ms)
+			TypeCache.Refresh (708ms)
+				TypeCache.ScanAssembly (661ms)
+			ScanForSourceGeneratedMonoScriptInfo (67ms)
+			ResolveRequiredComponents (46ms)
+	FinalizeReload (2366ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1830ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (55ms)
+			SetLoadedEditorAssemblies (18ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (150ms)
+			ProcessInitializeOnLoadAttributes (1393ms)
+			ProcessInitializeOnLoadMethodAttributes (209ms)
+			AfterProcessingInitializeOnLoad (5ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (19ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.15 seconds
+Refreshing native plugins compatible for Editor in 12.88 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4942 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (349.5 KB). Loaded Objects now: 5403.
+Memory consumption went from 207.5 MB to 207.2 MB.
+Total: 11.319300 ms (FindLiveObjects: 0.944300 ms CreateObjectMapping: 0.876400 ms MarkObjects: 8.694500 ms  DeleteObjects: 0.801900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 520169.120156 seconds.
+  path: Assets/JejumokGwana/Prefabs/Ground_Walls/Stonewall_01.prefab
+  artifactKey: Guid(e108715223d8c5c4683aaa05967cc50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Prefabs/Ground_Walls/Stonewall_01.prefab using Guid(e108715223d8c5c4683aaa05967cc50a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7cd70415d6c9247a3e1141597e67629') in 1.617233 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.102150 seconds.
+  path: Assets/JejumokGwana/Prefabs/Decoration/GwandeokjongIllustB.prefab
+  artifactKey: Guid(4b34317aadee8d5478de879dd9bf8b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Prefabs/Decoration/GwandeokjongIllustB.prefab using Guid(4b34317aadee8d5478de879dd9bf8b5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd419e5830678bb60a4a486e8c3b6f1d9') in 0.048038 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.073737 seconds.
+  path: Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs
+  artifactKey: Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Scripts/Editor/ReadmeEditor.cs using Guid(476cc7d7cd9874016adc216baab94a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2e1c2d516ca1482e60b3b0ecfb280b6') in 0.031092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.051526 seconds.
+  path: Assets/JejumokGwana/Prefabs/Roof_Foundations/StickE.prefab
+  artifactKey: Guid(019874376d37f2c40a6eddaaaf9609c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Prefabs/Roof_Foundations/StickE.prefab using Guid(019874376d37f2c40a6eddaaaf9609c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0a75ad5972ccc674c513b242f97ed8a8') in 0.036839 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.081701 seconds.
+  path: Assets/JejumokGwana/Textures/T_Wood_Pattern_04_BC.PNG
+  artifactKey: Guid(07ac017066f3c1d46ae04e189d5e9091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Textures/T_Wood_Pattern_04_BC.PNG using Guid(07ac017066f3c1d46ae04e189d5e9091) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e07cb5935796f58ff8841d766d93a5ca') in 0.417032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.141763 seconds.
+  path: Assets/Character Pack/scene2.unity
+  artifactKey: Guid(2be4b6f0f99493a4f817dc362ad4ea9c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Character Pack/scene2.unity using Guid(2be4b6f0f99493a4f817dc362ad4ea9c) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Opening scene 'Assets/Character Pack/scene2.unity additively'
+LightingSettings: switching bake backend from 1 to 0.
+Loaded scene 'Assets/Character Pack/scene2.unity'
+	Deserialize:            1.573 ms
+	Integration:            17.623 ms
+	Integration of assets:  0.007 ms
+	Thread Wait Time:       0.015 ms
+	Total Operation Time:   19.218 ms
+Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7d900c5d7b3a5d07929258271d08446b') in 0.221287 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 192
+========================================================================
+Received Import Request.
+  Time since last request: 0.019694 seconds.
+  path: Assets/JejumokGwana/Meshes/Roof_Foundations/SM_CornerD.fbx
+  artifactKey: Guid(abe9d0147f437844889eb1d5556b40e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Meshes/Roof_Foundations/SM_CornerD.fbx using Guid(abe9d0147f437844889eb1d5556b40e2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c84f3c8080fcfc6f55b788bd1fc6140b') in 0.106526 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/JejumokGwana/Meshes/Roofs/SM_Roof_08.fbx
+  artifactKey: Guid(7d9c83e18a0013547801009f68778fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Meshes/Roofs/SM_Roof_08.fbx using Guid(7d9c83e18a0013547801009f68778fa1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a66189583165694857079053386fc5e') in 0.175494 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000072 seconds.
+  path: Assets/JejumokGwana/Textures/T_Wood_02_BC.PNG
+  artifactKey: Guid(ad1d49fdca78a4348b8197e95f5f49b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Textures/T_Wood_02_BC.PNG using Guid(ad1d49fdca78a4348b8197e95f5f49b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f08e28a25328fc14e29d84489c0d96bf') in 0.097765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000069 seconds.
+  path: Assets/JejumokGwana/Textures/T_Stonewall_Roof_02_R.PNG
+  artifactKey: Guid(fea63263513a23f42b308b83b7fb4b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Textures/T_Stonewall_Roof_02_R.PNG using Guid(fea63263513a23f42b308b83b7fb4b50) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '86e357fe1425eaac0fdb97cfdd9643fe') in 0.089196 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000753 seconds.
+  path: Assets/JejumokGwana/Meshes/Floors/SM_Floor_stone.fbx
+  artifactKey: Guid(439d86ec0cd28934981c6dae3e4f74d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Meshes/Floors/SM_Floor_stone.fbx using Guid(439d86ec0cd28934981c6dae3e4f74d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8d75dabcc7d9534d5ad111abf95be788') in 0.102197 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.002241 seconds.
+  path: Assets/JejumokGwana/Textures/T_Ground_03_BC.PNG
+  artifactKey: Guid(17c05e9e287cc2f48a6885a4d05fba6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Textures/T_Ground_03_BC.PNG using Guid(17c05e9e287cc2f48a6885a4d05fba6d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cce31b95c30b424e7ba85047ab24cbe7') in 0.112355 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000088 seconds.
+  path: Assets/JejumokGwana/Materials/M_Signages 3.mat
+  artifactKey: Guid(67b9730a169e33f4fbd7457111a5e88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Signages 3.mat using Guid(67b9730a169e33f4fbd7457111a5e88f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd3171a6837621e6695ca39627aec1940') in 0.090437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000078 seconds.
+  path: Assets/JejumokGwana/Materials/M_Wood_Pattern_14.mat
+  artifactKey: Guid(34323ce6007f0e841b2172fbbff4a90a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Wood_Pattern_14.mat using Guid(34323ce6007f0e841b2172fbbff4a90a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb6b35562be107c9324e9b878711d859') in 0.045126 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000605 seconds.
+  path: Assets/Settings/URP-HighFidelity-Renderer.asset
+  artifactKey: Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/Settings/URP-HighFidelity-Renderer.asset using Guid(c40be3174f62c4acf8c1216858c64956) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ae037e256d75fb1da5bb4c0f81058e70') in 0.032350 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.000709 seconds.
+  path: Assets/JejumokGwana/Prefabs/Floors/Floor_Wood.prefab
+  artifactKey: Guid(e24581a1e7febf74db632c9a0cf94088) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/JejumokGwana/Prefabs/Floors/Floor_Wood.prefab using Guid(e24581a1e7febf74db632c9a0cf94088) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fc77af0e477a1d988fc3a0bf2c5ef2da') in 0.033100 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 0.001137 seconds.
+  path: Assets/JejumokGwana/Textures/T_Bricks_Stone_03_R.PNG
+  artifactKey: Guid(07874c4cdf90ee24c98c35658610e3c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Textures/T_Bricks_Stone_03_R.PNG using Guid(07874c4cdf90ee24c98c35658610e3c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4d5c55e7a7ec0488235d1b7ed5bda8f1') in 0.072435 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+Editor requested this worker to shutdown with reason: balancing worker count downwards
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0

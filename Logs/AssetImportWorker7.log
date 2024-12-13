@@ -1,0 +1,561 @@
+Using pre-set license
+Built from '2022.3/staging' branch; Version is '2022.3.17f1 (4fc78088f837) revision 5228416'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 11  (10.0.26100) 64bit Professional' Language: 'en' Physical Memory: 16159 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\2022.3.17f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker7
+-projectPath
+D:/IM ESLSCA UNIVERSITY/Game Design and Development/Final Project
+-logFile
+Logs/AssetImportWorker7.log
+-srvPort
+53480
+Successfully changed project path to: D:/IM ESLSCA UNIVERSITY/Game Design and Development/Final Project
+D:/IM ESLSCA UNIVERSITY/Game Design and Development/Final Project
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-allocator-temp-initial-block-size-main=262144"
+    "memorysetup-allocator-temp-initial-block-size-worker=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [18320] Host "[IP] 172.20.10.5 [Port] 0 [Flags] 2 [Guid] 678215357 [EditorId] 678215357 [Version] 1048832 [Id] WindowsEditor(7,MOHAMEDIAD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [18320] Host "[IP] 172.20.10.5 [Port] 0 [Flags] 2 [Guid] 678215357 [EditorId] 678215357 [Version] 1048832 [Id] WindowsEditor(7,MOHAMEDIAD) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+[Physics::Module] Initialized MultithreadedJobDispatcher with 11 workers.
+Refreshing native plugins compatible for Editor in 17.08 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.3.17f1 (4fc78088f837)
+[Subsystems] Discovering subsystems at path D:/2022.3.17f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/IM ESLSCA UNIVERSITY/Game Design and Development/Final Project/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce GTX 1650 (ID=0x1f9d)
+    Vendor:   NVIDIA
+    VRAM:     3937 MB
+    Driver:   32.0.15.6636
+Initialize mono
+Mono path[0] = 'D:/2022.3.17f1/Editor/Data/Managed'
+Mono path[1] = 'D:/2022.3.17f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/2022.3.17f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56464
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/2022.3.17f1/Editor/Data/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Register platform support module: D:/2022.3.17f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.008861 seconds.
+- Loaded All Assemblies, in  1.148 seconds
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 812 ms
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  1.734 seconds
+Domain Reload Profiling: 2882ms
+	BeginReloadAssembly (375ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (0ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (2ms)
+	RebuildCommonClasses (116ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (153ms)
+	LoadAllAssembliesAndSetupDomain (476ms)
+		LoadAssemblies (376ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (470ms)
+			TypeCache.Refresh (466ms)
+				TypeCache.ScanAssembly (422ms)
+			ScanForSourceGeneratedMonoScriptInfo (1ms)
+			ResolveRequiredComponents (1ms)
+	FinalizeReload (1735ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (1594ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (1134ms)
+			SetLoadedEditorAssemblies (11ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (4ms)
+			ProcessInitializeOnLoadAttributes (300ms)
+			ProcessInitializeOnLoadMethodAttributes (145ms)
+			AfterProcessingInitializeOnLoad (0ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (0ms)
+========================================================================
+Worker process is ready to serve import requests
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.421 seconds
+Refreshing native plugins compatible for Editor in 8.21 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+Native extension for Android target not found
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  2.595 seconds
+Domain Reload Profiling: 5022ms
+	BeginReloadAssembly (505ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (16ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (1ms)
+		CreateAndSetChildDomain (80ms)
+	RebuildCommonClasses (110ms)
+	RebuildNativeTypeToScriptingClass (27ms)
+	initialDomainReloadingComplete (109ms)
+	LoadAllAssembliesAndSetupDomain (1675ms)
+		LoadAssemblies (1229ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (750ms)
+			TypeCache.Refresh (661ms)
+				TypeCache.ScanAssembly (587ms)
+			ScanForSourceGeneratedMonoScriptInfo (61ms)
+			ResolveRequiredComponents (24ms)
+	FinalizeReload (2595ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (2003ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (53ms)
+			SetLoadedEditorAssemblies (14ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (180ms)
+			ProcessInitializeOnLoadAttributes (1553ms)
+			ProcessInitializeOnLoadMethodAttributes (194ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (1ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (23ms)
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.19 seconds
+Refreshing native plugins compatible for Editor in 6.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4942 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 63 unused Assets / (349.7 KB). Loaded Objects now: 5403.
+Memory consumption went from 207.4 MB to 207.1 MB.
+Total: 13.386200 ms (FindLiveObjects: 0.746500 ms CreateObjectMapping: 0.984000 ms MarkObjects: 10.863500 ms  DeleteObjects: 0.789500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 62b5816608c3102f162a1797e29626cf -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 520170.527467 seconds.
+  path: Assets/JejumokGwana/Prefabs/Roof_Foundations/Roof_Frame.prefab
+  artifactKey: Guid(f4d051fb6adaf37469d68da6956d658a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Prefabs/Roof_Foundations/Roof_Frame.prefab using Guid(f4d051fb6adaf37469d68da6956d658a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0332017114cfd78d35145422493c1337') in 1.147163 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.080389 seconds.
+  path: Assets/JejumokGwana/Prefabs/Roof_Foundations/StickD.prefab
+  artifactKey: Guid(0cd729009dcf2db4c905115353646644) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/JejumokGwana/Prefabs/Roof_Foundations/StickD.prefab using Guid(0cd729009dcf2db4c905115353646644) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2e56b63e8a8d3b8e5141088559a4297e') in 0.357117 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 9
+========================================================================
+Received Import Request.
+  Time since last request: 0.024968 seconds.
+  path: Assets/TutorialInfo/Icons/URP.png
+  artifactKey: Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TutorialInfo/Icons/URP.png using Guid(727a75301c3d24613a3ebcec4a24c2c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b7e438edbb19d4ea7825943d116adbea') in 0.254753 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.008064 seconds.
+  path: Assets/JejumokGwana/Materials/M_Signages 6.mat
+  artifactKey: Guid(1e3fbf4cd35f96645a90e34c77604564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Signages 6.mat using Guid(1e3fbf4cd35f96645a90e34c77604564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c3ff4a52457f8cb4a98b45a288a48706') in 0.092701 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000126 seconds.
+  path: Assets/JejumokGwana/Prefabs/Roofs/Roof_02.prefab
+  artifactKey: Guid(10f9f8bee8b6c254c93e129a0264c157) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b)
+Start importing Assets/JejumokGwana/Prefabs/Roofs/Roof_02.prefab using Guid(10f9f8bee8b6c254c93e129a0264c157) Importer(2089858483,3d70f49cd1c2eb9ae422958d1c652c6b) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9afff2c6df1f85339387077fdf7ff1b4') in 0.162828 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 15
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/JejumokGwana/Textures/T_Roof_01_N.PNG
+  artifactKey: Guid(a237d8260dd07db4dbebecb2eb2f54f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Textures/T_Roof_01_N.PNG using Guid(a237d8260dd07db4dbebecb2eb2f54f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '621e7e2435e22d0e2e394b200958f660') in 0.148008 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000595 seconds.
+  path: Assets/JejumokGwana/Meshes/Building_Walls/SM_WallSetI.fbx
+  artifactKey: Guid(ffc107b4b03d5ee449f46dfe97c7a643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Meshes/Building_Walls/SM_WallSetI.fbx using Guid(ffc107b4b03d5ee449f46dfe97c7a643) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70e72f5371e9661655b03678a3cb3e91') in 0.106138 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 0.000156 seconds.
+  path: Assets/JejumokGwana/Materials/M_Wood_03.mat
+  artifactKey: Guid(ea902fd3157746d44ab95860391cf0c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Wood_03.mat using Guid(ea902fd3157746d44ab95860391cf0c9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2b55fd374f68ee4ac8cc409f29b5bfc9') in 0.038892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000735 seconds.
+  path: Assets/JejumokGwana/Materials/M_Wood_Pattern_25.mat
+  artifactKey: Guid(057ad6cd38d875043996eb249686ebc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Wood_Pattern_25.mat using Guid(057ad6cd38d875043996eb249686ebc2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6490aeb1287e060ea5ddba6f870e357d') in 0.132931 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000081 seconds.
+  path: Assets/JejumokGwana/Prefabs/Building_Walls/WallSetC.prefab
+  artifactKey: Guid(94bd7c0b55a9e3a4b81aec44a051772d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Prefabs/Building_Walls/WallSetC.prefab using Guid(94bd7c0b55a9e3a4b81aec44a051772d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b98c593c00870c89bc3c6fec7d7e79f') in 0.047970 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 7
+========================================================================
+Received Import Request.
+  Time since last request: 3.174081 seconds.
+  path: Assets/JejumokGwana/Materials/M_Wood_Pattern_16.mat
+  artifactKey: Guid(c3db0de35f17d76418895dae4b962601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Wood_Pattern_16.mat using Guid(c3db0de35f17d76418895dae4b962601) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd956fb1b22b086a257752a0a5f1f282a') in 0.061883 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000042 seconds.
+  path: Assets/JejumokGwana/Materials/M_Wood_Pattern_13.mat
+  artifactKey: Guid(556055212044b0547ae5f16b12946b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Wood_Pattern_13.mat using Guid(556055212044b0547ae5f16b12946b13) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '599f79aa1d012ab3e78a8398a4087931') in 0.050041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JejumokGwana/Materials/M_Signages 10.mat
+  artifactKey: Guid(b43f75f51ff2e5f4f89f26bc986a6e19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Signages 10.mat using Guid(b43f75f51ff2e5f4f89f26bc986a6e19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '83784ecb9ea038e1fc7671bd14114530') in 0.045249 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000074 seconds.
+  path: Assets/JejumokGwana/Materials/M_Wood_Pattern_12.mat
+  artifactKey: Guid(84083fa856011b94dbade46f8f829392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Wood_Pattern_12.mat using Guid(84083fa856011b94dbade46f8f829392) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '95f6d36a4de9f414252990fb7a41dc24') in 0.052161 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000048 seconds.
+  path: Assets/JejumokGwana/Materials/M_Signages 1.mat
+  artifactKey: Guid(247d0cbe9b3f0c1459852457707c0d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Signages 1.mat using Guid(247d0cbe9b3f0c1459852457707c0d18) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f25f44b0d8f462e9a45f627213e6f2a6') in 0.037713 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JejumokGwana/Materials/M_Roof_02.mat
+  artifactKey: Guid(8a1f884cb9ad5da428a5ba09c7528d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Roof_02.mat using Guid(8a1f884cb9ad5da428a5ba09c7528d27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f8357c57cae59cfe8671fffac992fb47') in 0.114041 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JejumokGwana/Materials/M_Roof_01.mat
+  artifactKey: Guid(c6761363b888846428fed3d9d2b9fe6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Roof_01.mat using Guid(c6761363b888846428fed3d9d2b9fe6c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e61f00db15d5ecca5a25e47d99436169') in 0.051376 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JejumokGwana/Materials/M_Props.mat
+  artifactKey: Guid(6e1da49c9f16a064db0945c952bf9d91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Props.mat using Guid(6e1da49c9f16a064db0945c952bf9d91) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '43c6d5227f4cf98c5236263f4cc2a18a') in 0.031999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JejumokGwana/Materials/M_Wood_Pattern_02.mat
+  artifactKey: Guid(ac361bb3783955349b4d92b5cfe3fc97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Wood_Pattern_02.mat using Guid(ac361bb3783955349b4d92b5cfe3fc97) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '70e8283129219980c09879a601d14ea5') in 0.112157 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/JejumokGwana/Materials/M_Bricks_Stone_02.mat
+  artifactKey: Guid(aa1b4ea998e52c940ac502e17fe873fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Bricks_Stone_02.mat using Guid(aa1b4ea998e52c940ac502e17fe873fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'eb3ef2017a716bd54792b5e7b0dc7102') in 0.045497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000083 seconds.
+  path: Assets/JejumokGwana/Materials/M_Red_Wood.mat
+  artifactKey: Guid(e11575ba987d95a4c8cef194f2de5fa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Red_Wood.mat using Guid(e11575ba987d95a4c8cef194f2de5fa3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'fb44103fdeae5f225938f685d2bb4c2a') in 0.101010 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000051 seconds.
+  path: Assets/JejumokGwana/Materials/M_Ground_04.mat
+  artifactKey: Guid(d81abcf88ffef2644a58b77d5936a013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Ground_04.mat using Guid(d81abcf88ffef2644a58b77d5936a013) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8a56f9600fbbc4ea603b2e99ddb45276') in 0.091396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/JejumokGwana/Materials/M_Concretes_Black.mat
+  artifactKey: Guid(4f7185717dd8e3d448afbbff8adcca29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Concretes_Black.mat using Guid(4f7185717dd8e3d448afbbff8adcca29) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7ef9a4a39d3180716f0fcd532448f150') in 0.093073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/JejumokGwana/Materials/M_Signages 4.mat
+  artifactKey: Guid(baf40f0854caf444e8b172ad0b0cb2f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Signages 4.mat using Guid(baf40f0854caf444e8b172ad0b0cb2f0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9025fab57761f89d6025acf767c26f44') in 0.048670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000030 seconds.
+  path: Assets/JejumokGwana/Materials/M_Wood_Pattern_28.mat
+  artifactKey: Guid(170da1ff66d906e46b1c49da36a4449c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Wood_Pattern_28.mat using Guid(170da1ff66d906e46b1c49da36a4449c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df47530c971a0ac70169a952a01b465b') in 0.063857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/JejumokGwana/Materials/M_Stone_02.mat
+  artifactKey: Guid(d2a665f67cf70334e91e8596f23f8947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Stone_02.mat using Guid(d2a665f67cf70334e91e8596f23f8947) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8bea1052b06af4583a502c0157035fd1') in 0.062580 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/JejumokGwana/Materials/M_Signages 8.mat
+  artifactKey: Guid(ec2b17505e5de234a8537a219700ba9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Signages 8.mat using Guid(ec2b17505e5de234a8537a219700ba9c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b412034c27cf012b6888d2278b9b988e') in 0.031471 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/JejumokGwana/Materials/M_Stonewall_Roof_02.mat
+  artifactKey: Guid(63f3a49ddb9a3cb42966849f8b69b775) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Stonewall_Roof_02.mat using Guid(63f3a49ddb9a3cb42966849f8b69b775) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd8e6ddd61345136cd55c47d1027b9d51') in 0.040386 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000034 seconds.
+  path: Assets/JejumokGwana/Materials/M_Bricks_Stone_01.mat
+  artifactKey: Guid(2b60931e15d771744a1fc61825bde6a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Bricks_Stone_01.mat using Guid(2b60931e15d771744a1fc61825bde6a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5a58ce52cfc493312289088e4da79d9') in 0.138780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 4
+========================================================================
+Received Import Request.
+  Time since last request: 0.000055 seconds.
+  path: Assets/JejumokGwana/Materials/M_Signages 6.mat
+  artifactKey: Guid(1e3fbf4cd35f96645a90e34c77604564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Signages 6.mat using Guid(1e3fbf4cd35f96645a90e34c77604564) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1d165f6fedeea40f3c2a94173a144bad') in 0.023563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JejumokGwana/Materials/M_Stone_01.mat
+  artifactKey: Guid(03db56208f48ecc4c9cf8921bdda848c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Stone_01.mat using Guid(03db56208f48ecc4c9cf8921bdda848c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5c44587714aaaedbc65c42a29befcd13') in 0.059262 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000044 seconds.
+  path: Assets/JejumokGwana/Materials/M_Signages 9.mat
+  artifactKey: Guid(073096547bd9ba84eb4406030d8f14a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/JejumokGwana/Materials/M_Signages 9.mat using Guid(073096547bd9ba84eb4406030d8f14a9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b281a7a92df36e1784a527853da2ce0') in 0.027554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.458056 seconds.
+  path: Assets/JejumokGwana/Textures/T_Bricks_Stone_01_R.PNG
+  artifactKey: Guid(58731219139a451458beb6a6fc2b3f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Bricks_Stone_01_R.PNG using Guid(58731219139a451458beb6a6fc2b3f14) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5485f08a38681d254680cbd7c43ea02') in 0.054242 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/JejumokGwana/Textures/T_Ground_01_N.PNG
+  artifactKey: Guid(f30fc798021750d4b846deef11260310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Ground_01_N.PNG using Guid(f30fc798021750d4b846deef11260310) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccfda1f341de0af671d73a756c9ba678') in 0.038922 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/JejumokGwana/Textures/T_Concretes_Black_BC.PNG
+  artifactKey: Guid(aee368be8a1bd324682b7eccb6ad41d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Concretes_Black_BC.PNG using Guid(aee368be8a1bd324682b7eccb6ad41d8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8cadd57e4f9b7c145e6401e57bf275e8') in 0.025924 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/JejumokGwana/Textures/T_Door_01_N.PNG
+  artifactKey: Guid(b5091eb5ee24ad64aaf14e7cf6f8f11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Door_01_N.PNG using Guid(b5091eb5ee24ad64aaf14e7cf6f8f11b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd75b65827f7faa3bc4d15a82bbfd5ab') in 0.034005 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/JejumokGwana/Textures/T_Ground_03_N.PNG
+  artifactKey: Guid(e7d8f66f036cf324ab4395a3a4e57973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Ground_03_N.PNG using Guid(e7d8f66f036cf324ab4395a3a4e57973) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f98562aae7a33b15ec2455179939795f') in 0.037971 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/JejumokGwana/Textures/T_Bricks_Stone_02_BC.PNG
+  artifactKey: Guid(8323bcc37a315b347a44d68c51b3be29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Bricks_Stone_02_BC.PNG using Guid(8323bcc37a315b347a44d68c51b3be29) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa6086517c075633cef054afc5c4c7df') in 0.028805 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/JejumokGwana/Textures/T_Door_02_R.PNG
+  artifactKey: Guid(350c9618b3b7eff41adcf73526000538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Door_02_R.PNG using Guid(350c9618b3b7eff41adcf73526000538) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0ab6fee3611c856e648d9f6173e47199') in 0.024579 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/JejumokGwana/Textures/T_Bricks_Stone_03_N.PNG
+  artifactKey: Guid(796e6b78e90827c4b9eb1188b0e9e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Bricks_Stone_03_N.PNG using Guid(796e6b78e90827c4b9eb1188b0e9e586) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af22267e3b4afa9456273a222b316955') in 0.024867 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000079 seconds.
+  path: Assets/JejumokGwana/Textures/T_Ground_02_BC.PNG
+  artifactKey: Guid(4380eed2b081a9f45be26f672903a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Ground_02_BC.PNG using Guid(4380eed2b081a9f45be26f672903a778) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd24a1cadfdd6d0e50248b4918f540586') in 0.029674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/JejumokGwana/Textures/T_Bricks_Stone_03_R.PNG
+  artifactKey: Guid(07874c4cdf90ee24c98c35658610e3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Bricks_Stone_03_R.PNG using Guid(07874c4cdf90ee24c98c35658610e3c8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a742ad41a3c77c7ac884f5e7b0160648') in 0.022588 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/JejumokGwana/Textures/T_Ground_01_BC.PNG
+  artifactKey: Guid(947f4b387f3c2714e934171cd869b176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/JejumokGwana/Textures/T_Ground_01_BC.PNG using Guid(947f4b387f3c2714e934171cd869b176) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e175fa44f6644a1aae044dcbba01e6') in 0.025122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: The I/O operation has been aborted because of either a thread exit or an application request.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
